@@ -7,7 +7,7 @@ document.querySelector("#email-form").addEventListener("submit", function(event)
 
     console.log(email)
 
-    rudderanalytics.idenitfy(email, { signed_up: true })
+    rudderanalytics.idenitfy(email, { favorite_team: "Arsenal" })
 
     emailForm.value = ""
 } )
