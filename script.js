@@ -8,7 +8,7 @@ document.querySelector("#email-form").addEventListener("submit", function(event)
     console.log(email)
     
     // Add Rudder Event Handler Here:
-    rudderanalytics.identify(email, { favorite_team: "Arsenal" })
+    rudderanalytics.identify(email, { lead_source: "App Signup" })
 
     emailForm.value = ""
 } )
